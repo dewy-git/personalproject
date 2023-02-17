@@ -5,10 +5,10 @@ using UnityEngine;
 public class SpawnManager : MonoBehaviour
 {
     public GameObject[]obstaclePrefabs;
-    private float spawnRangeX = 5;
+    private float spawnRangeX = 4;
     private float spawnPosZ = 20;
     private float startDelay = 1;
-    private float spawnInterval = 1.5f;
+    private float spawnInterval = 0.75f;
 
     // Start is called before the first frame update
     void Start()
