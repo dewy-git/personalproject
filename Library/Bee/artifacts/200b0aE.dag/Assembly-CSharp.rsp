@@ -354,6 +354,7 @@
 -r:"Library/Bee/artifacts/200b0aE.dag/Unity.VSCode.Editor.ref.dll"
 -r:"Library/Bee/artifacts/200b0aE.dag/UnityEditor.UI.ref.dll"
 -r:"Library/Bee/artifacts/200b0aE.dag/UnityEngine.UI.ref.dll"
+"Assets/#OnePotatoKingdom_FULL/Bonus_Assets/Rotation_Script/Rotatator.cs"
 "Assets/Scripts/DestroyOutOfBounds.cs"
 "Assets/Scripts/DetectCollisions.cs"
 "Assets/Scripts/MoveForward.cs"
