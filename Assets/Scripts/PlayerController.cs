@@ -19,13 +19,13 @@ public class PlayerController : MonoBehaviour
     void Update()
     {
         //Keep the player in bounds
-        if (transform.position.x < -3)
+        if (transform.position.x < -4)
         {
-            transform.position = new Vector3(-3, transform.position.y, transform.position.z);
+            transform.position = new Vector3(-4, transform.position.y, transform.position.z);
         }
-        if (transform.position.x > 3)
+        if (transform.position.x > 4)
         {
-            transform.position = new Vector3(3, transform.position.y, transform.position.z);
+            transform.position = new Vector3(4, transform.position.y, transform.position.z);
         }
         horizontalInput = Input.GetAxis("Horizontal");
         transform.Translate(Vector3.right * horizontalInput * Time.deltaTime * speed);
