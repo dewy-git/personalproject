@@ -358,6 +358,7 @@
 "Assets/Scripts/DetectCollisions.cs"
 "Assets/Scripts/MoveForward.cs"
 "Assets/Scripts/PlayerController.cs"
+"Assets/Scripts/Projectiles.cs"
 "Assets/Scripts/SpawnManager.cs"
 "Assets/Stylized Astronaut/Character/Player.cs"
 -langversion:9.0
