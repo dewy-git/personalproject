@@ -491,7 +491,7 @@ GameObject:
   - component: {fileID: 3156141395690647359}
   - component: {fileID: 3156141395690780087}
   - component: {fileID: 3156141395690780085}
-  - component: {fileID: 3156141395690780084}
+  - component: {fileID: -7608519021033655830}
   m_Layer: 0
   m_Name: Astronaut
   m_TagString: Player
@@ -545,7 +545,7 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.19303426, y: 0.22758973, z: 0.12661551}
   m_Center: {x: 0.0027942709, y: 0.12277776, z: -0.019295117}
---- !u!114 &3156141395690780084
+--- !u!114 &-7608519021033655830
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -561,8 +561,10 @@ MonoBehaviour:
   speed: 15
   xRange: 1
   gameOver: 0
-  hasPowerup: 0
-  powerupIndicator: {fileID: 0}
+  hasPowerup1: 0
+  powerup1Indicator: {fileID: 0}
+  hasPowerup2: 0
+  powerup2Indicator: {fileID: 0}
   projectilePrefab: {fileID: 7578616767834012747, guid: 7432cf0bf9a9c49bcbf497fe8bb753f4, type: 3}
 --- !u!1 &3156141395690681185
 GameObject:

@@ -9,16 +9,17 @@ public class PlayerController : MonoBehaviour
     public float xRange = 1;
     public bool gameOver;
 
-    private float powerupStrength = 15.0f;
-    public bool hasPowerup = false;
-    public GameObject powerupIndicator;
+    public bool hasPowerup1 = false;
+    public GameObject powerup1Indicator;
+    
+    public bool hasPowerup2 = false;
+    public GameObject powerup2Indicator;
 
     public GameObject projectilePrefab;
 
     // Start is called before the first frame update
     void Start()
     {
-        
     }
 
     // Update is called once per frame
@@ -44,24 +45,40 @@ public class PlayerController : MonoBehaviour
         }
     }
 
+    //powerup 1 (super shield)
     private void OnTriggerEnter(Collider other)
     {
-        if (other.CompareTag("Powerup"))
+        if (other.CompareTag("Powerup1"))
         {
-            hasPowerup = true;
-            powerupIndicator.gameObject.SetActive(true);
+            hasPowerup1 = true;
+            powerup1Indicator.gameObject.SetActive(true);
             Destroy(other.gameObject);
-            StartCoroutine(PowerupCountdownRoutine());
+            StartCoroutine(Powerup1CountdownRoutine());
+        }
+        if (other.CompareTag("Powerup2"))
+        {
+            hasPowerup2 = true;
+            powerup2Indicator.gameObject.SetActive(true);
+            Destroy(other.gameObject);
+            StartCoroutine(Powerup2CountdownRoutine());
         }
     }
 
-    IEnumerator PowerupCountdownRoutine()
+    IEnumerator Powerup1CountdownRoutine()
     {
         yield return new WaitForSeconds(7);
-        hasPowerup = false;
-        powerupIndicator.gameObject.SetActive(false);
+        hasPowerup1 = false;
+        powerup1Indicator.gameObject.SetActive(false);
+    }
+
+    IEnumerator Powerup2CountdownRoutine()
+    {
+        yield return new WaitForSeconds(7);
+        hasPowerup2 = false;
+        powerup2Indicator.gameObject.SetActive(false);
     }
     
+    //collision with catasteroid or powerup
     private void OnCollisionEnter(Collision collision)
     {
         if(collision.gameObject.CompareTag("Obstacle"))
@@ -70,5 +87,9 @@ public class PlayerController : MonoBehaviour
             gameOver = true;
             Destroy(gameObject);
         }
+        if (collision.gameObject.CompareTag("Powerup1"))
+       {
+        transform.Translate(Vector3.right * horizontalInput * Time.deltaTime * speed);
+       }
     }
 }

@@ -8,7 +8,10 @@ public class SpawnManager : MonoBehaviour
     private float spawnRangeX = 4;
     private float spawnPosZ = 20;
     private float startDelay = 1;
-    private float spawnInterval = 0.75f;
+    private float spawnInterval = 1.00f;
+
+    public GameObject powerup1Prefab;
+    public GameObject powerup2Prefab;
 
     // Start is called before the first frame update
     void Start()
