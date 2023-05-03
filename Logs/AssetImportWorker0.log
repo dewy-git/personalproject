@@ -200,3 +200,9 @@ Received Import Request.
   path: Assets/Prefabs/Blue Popsicle.prefab
   artifactKey: Guid(a3a8851c9fd7e4b1cb2650b86419f630) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Start importing Assets/Prefabs/Blue Popsicle.prefab using Guid(a3a8851c9fd7e4b1cb2650b86419f630) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '89888c923ceac3c4510847ce5d3bf500') in 0.006245 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 85.460704 seconds.
+  path: Assets/Prefabs/Konpeito prototype.obj
+  artifactKey: Guid(4f0ba669f770b4931b7489d03cdc15fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Konpeito prototype.obj using Guid(4f0ba669f770b4931b7489d03cdc15fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '74c48b4e311ee65122ae1c091c686159') in 0.063200 seconds 
