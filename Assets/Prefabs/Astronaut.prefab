@@ -563,7 +563,7 @@ MonoBehaviour:
   gameOver: 0
   hasPowerup: 0
   powerupIndicator: {fileID: 0}
-  projectilePrefab: {fileID: 7578616767834012747, guid: 7432cf0bf9a9c49bcbf497fe8bb753f4, type: 3}
+  projectilePrefab: {fileID: 5948078349104153321, guid: 6374d36e226b040a1814e7c0deed4a51, type: 3}
 --- !u!1 &3156141395690681185
 GameObject:
   m_ObjectHideFlags: 0
