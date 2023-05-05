@@ -312,3 +312,51 @@ AssetImportParameters requested are different than current active one (requested
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 71.281233 seconds.
+  path: Assets/Prefabs/Dango (1).obj
+  artifactKey: Guid(0112cbe07d5694eeea54dbf38078814a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Dango (1).obj using Guid(0112cbe07d5694eeea54dbf38078814a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '45183cc6ee7eb8e184408cd70b594f23') in 0.164933 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 60.375358 seconds.
+  path: Assets/Materials
+  artifactKey: Guid(777ede3e7c50b43aa88cc09ac9b2a002) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials using Guid(777ede3e7c50b43aa88cc09ac9b2a002) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce6bb876f2fd4254e042bf97c2bff07a') in 0.000973 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 50.292212 seconds.
+  path: Assets/Materials/Materials
+  artifactKey: Guid(6e17046c554b64260a1594604c2a94da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Materials using Guid(6e17046c554b64260a1594604c2a94da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e84b32940ef51cd81febeee922efa998') in 0.000518 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 261.677268 seconds.
+  path: Assets/Prefabs/White Dango.prefab
+  artifactKey: Guid(d46b84590a00f42dc8264a190ffefb8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/White Dango.prefab using Guid(d46b84590a00f42dc8264a190ffefb8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '544e5ebcc869511c65ca9f805d8935ea') in 0.008906 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 62.224809 seconds.
+  path: Assets/Prefabs/Astronaut.prefab
+  artifactKey: Guid(c4de07e7a60cb43cdab0e6f2ceb8c3db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Astronaut.prefab using Guid(c4de07e7a60cb43cdab0e6f2ceb8c3db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce3c0b74f49f1751753a70cebadcb1a4') in 0.059239 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 78.670632 seconds.
+  path: Assets/Prefabs/White Dango.prefab
+  artifactKey: Guid(d46b84590a00f42dc8264a190ffefb8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/White Dango.prefab using Guid(d46b84590a00f42dc8264a190ffefb8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce8288566b299e20e3e18f968608761f') in 0.007774 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 15.094000 seconds.
+  path: Assets/Prefabs/White Dango.prefab
+  artifactKey: Guid(d46b84590a00f42dc8264a190ffefb8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/White Dango.prefab using Guid(d46b84590a00f42dc8264a190ffefb8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e0e3badd2e55163e0608f52907e2af2') in 0.009630 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 18.091194 seconds.
+  path: Assets/Prefabs/Blue Popsicle.prefab
+  artifactKey: Guid(a3a8851c9fd7e4b1cb2650b86419f630) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Blue Popsicle.prefab using Guid(a3a8851c9fd7e4b1cb2650b86419f630) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7da2a614e18f03ffd998bf7325f94198') in 0.008146 seconds 
